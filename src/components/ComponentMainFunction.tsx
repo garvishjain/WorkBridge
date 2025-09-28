@@ -959,38 +959,27 @@ function ComponentMainFunction() {
       </section>
       {/* <!-- Project Area End --> */}
       {/* <!-- contact with us Start --> */}
-      <section
-        className="contact-with-area"
-        data-background="assets/img/gallery/section-bg2.jpg"
-      >
-        <div className="container">
-          <div className="row">
-            <div className="col-xl-8 col-lg-9 offset-xl-1 offset-lg-1">
-              <div className="contact-us-caption">
-                <div className="team-info mb-30 pt-45">
-                  {/* <!-- Section Tittle --> */}
-                  <div className="section-tittle section-tittle4">
-                    <div className="front-text">
-                      <h2 className="">Lats talk with us</h2>
+      <section className="contact-with-area" data-background="assets/img/gallery/section-bg2.jpg">
+            <div className="container">
+                <div className="row">
+                    <div className="col-xl-8 col-lg-9 offset-xl-1 offset-lg-1">
+                        <div className="contact-us-caption">
+                            <div className="team-info mb-30 pt-45">
+                                {/* <!-- Section Tittle --> */}
+                                <div className="section-tittle section-tittle4">
+                                    <div className="front-text">
+                                        <h2 className="">Lats talk with us</h2>
+                                    </div>
+                                    <span className="back-text">Lat`s chat</span>
+                                </div>
+                                <p>Mollit anim laborum.Dvcuis aute iruxvfg dhjkolohr in re voluptate velit esscillumlore eu quife nrulla parihatur. Excghcepteur sfwsignjnt occa cupidatat non aute iruxvfg dhjinulpadeserunt mollitemnth incididbnt ut;o5tu layjobore mofllit anim.</p>
+                                <a href="#" className="white-btn">read more</a>
+                            </div>
+                        </div>
                     </div>
-                    <span className="back-text">Lat`s chat</span>
-                  </div>
-                  <p>
-                    Mollit anim laborum.Dvcuis aute iruxvfg dhjkolohr in re
-                    voluptate velit esscillumlore eu quife nrulla parihatur.
-                    Excghcepteur sfwsignjnt occa cupidatat non aute iruxvfg
-                    dhjinulpadeserunt mollitemnth incididbnt ut;o5tu layjobore
-                    mofllit anim.
-                  </p>
-                  <a href="#" className="white-btn">
-                    read more
-                  </a>
                 </div>
-              </div>
             </div>
-          </div>
-        </div>
-      </section>
+        </section>
       {/* <!-- contact with us End--> */}
       {/* <!-- CountDown Area Start --> */}
       <div className="count-area">

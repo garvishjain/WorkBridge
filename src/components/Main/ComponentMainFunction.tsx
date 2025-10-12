@@ -1,4 +1,5 @@
 import Headers from "../Header/Headers"
+import Testimonial from "./TestimonialSection";
 
 function ComponentMainFunction() {
   return (
@@ -10,7 +11,8 @@ function ComponentMainFunction() {
         <div className="slider-active">
           <div
             className="single-slider  hero-overly slider-height d-flex align-items-center"
-            data-background="assets/img/hero/h1_hero.jpg"
+            // data-background="assets/img/hero/h1_hero.jpg"
+            style={{ backgroundImage: "url('/assets/img/hero/h1_hero.jpg')" }}
           >
             <div className="container">
               <div className="row">
@@ -963,7 +965,7 @@ function ComponentMainFunction() {
       </section>
       {/* <!-- Project Area End --> */}
       {/* <!-- contact with us Start --> */}
-      <section className="contact-with-area" data-background="assets/img/gallery/section-bg2.jpg">
+      <section className="contact-with-area" style={{ backgroundImage: "url('assets/img/gallery/section-bg2.jpg')" }}>
             <div className="container">
                 <div className="row">
                     <div className="col-xl-8 col-lg-9 offset-xl-1 offset-lg-1">
@@ -990,7 +992,7 @@ function ComponentMainFunction() {
         <div className="container">
           <div
             className="count-wrapper count-bg"
-            data-background="assets/img/gallery/section-bg3.jpg"
+            style={{ backgroundImage: "url('assets/img/gallery/section-bg3.jpg')"}}
           >
             <div className="row justify-content-center">
               <div className="col-lg-4 col-md-4 col-sm-6">
@@ -1104,91 +1106,7 @@ function ComponentMainFunction() {
               </div>
             </div>
           </div>
-          <div className="row">
-            <div className="col-xl-10 col-lg-11 col-md-10 offset-xl-1">
-              <div className="h1-testimonial-active">
-                {/* <!-- Single Testimonial --> */}
-                <div className="single-testimonial">
-                  {/* <!-- Testimonial Content --> */}
-                  <div className="testimonial-caption ">
-                    <div className="testimonial-top-cap">
-                      {/* <!-- SVG icon --> */}
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="86px"
-                        height="63px"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          stroke-width="1px"
-                          stroke="rgb(255, 95, 19)"
-                          fill-opacity="0"
-                          fill="rgb(0, 0, 0)"
-                          d="M82.623,59.861 L48.661,59.861 L48.661,25.988 L59.982,3.406 L76.963,3.406 L65.642,25.988 L82.623,25.988 L82.623,59.861 ZM3.377,25.988 L14.698,3.406 L31.679,3.406 L20.358,25.988 L37.340,25.988 L37.340,59.861 L3.377,59.861 L3.377,25.988 Z"
-                        />
-                      </svg>
-                      <p>
-                        Mollit anim laborum.Dvcuis aute iruxvfg dhjkolohr in re
-                        voluptate velit esscillumlore eu quife nrulla parihatur.
-                        Excghcepteur sfwsignjnt occa cupidatat non aute iruxvfg
-                        dhjinulpadeserunt mollitemnth incididbnt ut;o5tu
-                        layjobore mofllit anim. Mollit anim laborum.Dvcuis aute
-                        iruxvfg dhjkolohr in re voluptate velit esscillumlore eu
-                        quife nrulla parihatur. Excghcepteur sfwsignjn.
-                      </p>
-                    </div>
-                    {/* <!-- founder --> */}
-                    <div className="testimonial-founder d-flex align-items-center">
-                      <div className="founder-text">
-                        <span>Jessya Inn</span>
-                        <p>Co Founder</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {/* <!-- Single Testimonial --> */}
-                <div className="single-testimonial">
-                  {/* <!-- Testimonial Content --> */}
-                  <div className="testimonial-caption ">
-                    <div className="testimonial-top-cap">
-                      {/* <!-- SVG icon --> */}
-                      {/* <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="86px" height="63px"> */}
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="86px"
-                        height="63px"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          stroke-width="1px"
-                          stroke="rgb(255, 95, 19)"
-                          fill-opacity="0"
-                          fill="rgb(0, 0, 0)"
-                          d="M82.623,59.861 L48.661,59.861 L48.661,25.988 L59.982,3.406 L76.963,3.406 L65.642,25.988 L82.623,25.988 L82.623,59.861 ZM3.377,25.988 L14.698,3.406 L31.679,3.406 L20.358,25.988 L37.340,25.988 L37.340,59.861 L3.377,59.861 L3.377,25.988 Z"
-                        />
-                      </svg>
-                      <p>
-                        Mollit anim laborum.Dvcuis aute iruxvfg dhjkolohr in re
-                        voluptate velit esscillumlore eu quife nrulla parihatur.
-                        Excghcepteur sfwsignjnt occa cupidatat non aute iruxvfg
-                        dhjinulpadeserunt mollitemnth incididbnt ut;o5tu
-                        layjobore mofllit anim. Mollit anim laborum.Dvcuis aute
-                        iruxvfg dhjkolohr in re voluptate velit esscillumlore eu
-                        quife nrulla parihatur. Excghcepteur sfwsignjn.
-                      </p>
-                    </div>
-                    {/* <!-- founder --> */}
-                    <div className="testimonial-founder d-flex align-items-center">
-                      <div className="founder-text">
-                        <span>Jessya Inn</span>
-                        <p>Co Founder</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <Testimonial />
         </div>
       </div>
       {/* <!-- Testimonial End --> */}

@@ -5,7 +5,7 @@ function Headers(){
     return(
         <header>
         {/* <!-- Header Start --> */}
-       <div className="header-area header-transparent">
+        <div className="header-area header-transparent">
             <div className="main-header ">
                 <div className="header-top d-none d-lg-block">
                    <div className="container-fluid">
@@ -37,22 +37,20 @@ function Headers(){
                             <div className="col-xl-2 col-lg-2 col-md-1">
                                 <div className="logo">
                                     {/* <!-- logo-1 --> */}
-                                    <a href="index.html" className="big-logo"><img src="assets/img/logo/logo.png" alt="" /></a>
+                                    <a href="/" className="big-logo"><img src="assets/img/logo/logo.png" alt="" /></a>
                                     {/* <!-- logo-2 --> */}
-                                    <a href="index.html" className="small-logo"><img src="assets/img/logo/loder-logo.png" alt="" /></a>
+                                    <a href="/" className="small-logo"><img src="assets/img/logo/loder-logo.png" alt="" /></a>
                                 </div>
                             </div>
                             <div className="col-xl-8 col-lg-8 col-md-8">
                                 {/* <!-- Main-menu --> */}
-                                <div className="main-menu f-right d-none d-lg-block">
+                                {/* <div className="main-menu f-right d-none d-lg-block">
                                     <nav> 
-                                        <ul id="navigation">                                                                                                                   
-                                            {/* <li><a href="index.html">Home</a></li> */}
+                                        <ul id="navigation">
                                             <li><Link to="/">Home</Link></li>
                                             <li><Link to="/about">About</Link></li>
-                                            {/* <li><a href="../About/Abouts.tsx">About</a></li> */}
-                                            <li><a href="project.html">Projects</a></li>
-                                            <li><a href="services.html">Services</a></li>
+                                            <li><Link to="/project">Projects</Link></li>
+                                            <li><Link to="/service">Services</Link></li>
                                             <li><a href="blog.html">Blog</a>
                                                 <ul className="submenu">
                                                     <li><a href="blog.html">Blog</a></li>
@@ -69,7 +67,7 @@ function Headers(){
                                             <li><a href="contact.html">Contact</a></li>
                                         </ul>
                                     </nav>
-                                </div>
+                                </div> */}
                             </div>             
                             <div className="col-xl-2 col-lg-2 col-md-3">
                                 <div className="header-right-btn f-right d-none d-lg-block">
@@ -84,7 +82,7 @@ function Headers(){
                     </div>
                </div>
             </div>
-       </div>
+        </div>
         {/* <!-- Header End --> */}
     </header>
     )

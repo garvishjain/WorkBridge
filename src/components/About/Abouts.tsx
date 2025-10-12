@@ -1,8 +1,9 @@
-
+import Headers from "../Header/Headers";
 
 function Abouts() {
     return(
         <>
+        <Headers/>
         <main>
         {/* <!-- slider Area Start--> */}
         <div className="slider-area ">

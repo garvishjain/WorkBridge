@@ -1,4 +1,4 @@
-
+import { Link } from 'react-router-dom'
 
 
 function Headers(){
@@ -47,8 +47,10 @@ function Headers(){
                                 <div className="main-menu f-right d-none d-lg-block">
                                     <nav> 
                                         <ul id="navigation">                                                                                                                   
-                                            <li><a href="index.html">Home</a></li>
-                                            <li><a href="about.html">About</a></li>
+                                            {/* <li><a href="index.html">Home</a></li> */}
+                                            <li><Link to="/">Home</Link></li>
+                                            <li><Link to="/about">About</Link></li>
+                                            {/* <li><a href="../About/Abouts.tsx">About</a></li> */}
                                             <li><a href="project.html">Projects</a></li>
                                             <li><a href="services.html">Services</a></li>
                                             <li><a href="blog.html">Blog</a>

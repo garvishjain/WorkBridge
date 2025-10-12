@@ -2,10 +2,12 @@ import React from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 // import './App.css'
+import { Routes, Route } from 'react-router-dom'
 
-import Footers from "./components/Footers"
-import Headers from "./components/Headers"
-import ComponentMainFunction from "./components/ComponentMainFunction"
+import Footers from "./components/Footer/Footers"
+import Abouts from "./components/About/Abouts"
+// import Headers from "./components/Header/Headers"
+import ComponentMainFunction from "./components/Main/ComponentMainFunction"
 
 
 function App() {
@@ -21,7 +23,11 @@ function App() {
               </div>
           </div>
       </div> */}
-      <Headers />
+      {/* <Headers /> */}
+      <Routes>
+        <Route path="/" element={<ComponentMainFunction />} />
+        <Route path="/about" element={<Abouts />} />
+      </Routes>
       <ComponentMainFunction />
       <Footers />
     </>

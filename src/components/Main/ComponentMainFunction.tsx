@@ -1,5 +1,9 @@
+import Headers from "../Header/Headers"
+
 function ComponentMainFunction() {
   return (
+    <>
+    <Headers />
     <main>
       {/* <!-- slider Area Start--> */}
       <div className="slider-area ">
@@ -1258,6 +1262,7 @@ function ComponentMainFunction() {
       </div>
       {/* <!--latest News Area End --> */}
     </main>
+    </> 
   );
 }
 

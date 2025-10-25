@@ -11,14 +11,13 @@ function Footers() {
                   {/* <!-- logo --> */}
                   <div className="footer-logo">
                     <a href="index.html">
-                      <img src="assets/img/logo/logo2_footer.png" alt="" />
+                      <img src="assets/img/logo/WorkBridgeIndiaLogo_AM-removebg-footer.PNG" alt="" />
                     </a>
                   </div>
                   <div className="footer-tittle">
                     <div className="footer-pera">
                       <p className="info1">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit
-                        sed do eiusmod tempor incididunt ut labore.
+                        To empower the construction and service industries by building trusted connections, enabling better projects, and fostering real growth for all partners.
                       </p>
                     </div>
                   </div>
@@ -30,13 +29,13 @@ function Footers() {
                     <h4>Quick Links</h4>
                     <ul>
                       <li>
-                        <a href="#">About</a>
+                        <a href="/about">About</a>
                       </li>
                       <li>
-                        <a href="#">Services</a>
+                        <a href="/service">Services</a>
                       </li>
                       <li>
-                        <a href="#">Projects</a>
+                        <a href="/project">Projects</a>
                       </li>
                       <li>
                         <a href="#">Contact Us</a>
@@ -56,10 +55,12 @@ function Footers() {
                     </div>
                     <ul>
                       <li>
-                        <a href="#">Phone: +95 (0) 123 456 789</a>
+                        {/* <a href="#">Phone: +91 99811 41447</a> */}
+                        <p>Phone: +91 99811 41447</p>
                       </li>
                       <li>
-                        <a href="#">Cell: +95 (0) 123 456 789</a>
+                        {/* <a href="#">Mail: info@workbridgeindia.com</a> */}
+                        <p>Mail: info@workbridgeindia.com</p>
                       </li>
                     </ul>
                   </div>
@@ -115,11 +116,12 @@ function Footers() {
                 <div className="footer-copy-right">
                   Copyright &copy;
                   <script>document.write(new Date().getFullYear());</script> All
-                  rights reserved | This template is made with{" "}
-                  <i className="fa fa-heart" aria-hidden="true"></i> by{" "}
+                  rights reserved 
+                  {/* | This template is made with{" "} */}
+                  {/* <i className="fa fa-heart" aria-hidden="true"></i> by{" "}
                   <a href="https://colorlib.com" target="_blank">
                     Colorlib
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>

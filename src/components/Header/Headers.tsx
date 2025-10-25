@@ -13,8 +13,8 @@ function Headers(){
                             <div className="row d-flex justify-content-between align-items-center">
                                 <div className="header-info-left">
                                     <ul>     
-                                        <li>+(123) 1234-567-8901</li>
-                                        <li>info@domain.com</li>
+                                        <li>+(91) 99811 41447</li>
+                                        <li>info@workbridgeindia.com</li>
                                         <li>Mon - Sat 8:00 - 17:30, Sunday - CLOSED</li>
                                     </ul>
                                 </div>
@@ -37,17 +37,17 @@ function Headers(){
                             <div className="col-xl-2 col-lg-2 col-md-1">
                                 <div className="logo">
                                     {/* <!-- logo-1 --> */}
-                                    <a href="/" className="big-logo"><img src="assets/img/logo/logo.png" alt="" /></a>
+                                    <a href="/" className="big-logo"><img src="assets/img/logo/WorkBridgeIndiaLogo_AM-removebg-preview.PNG" alt="" /></a>
                                     {/* <!-- logo-2 --> */}
                                     <a href="/" className="small-logo"><img src="assets/img/logo/loder-logo.png" alt="" /></a>
                                 </div>
                             </div>
                             <div className="col-xl-8 col-lg-8 col-md-8">
                                 {/* <!-- Main-menu --> */}
-                                {/* <div className="main-menu f-right d-none d-lg-block">
+                                <div className="main-menu f-right d-none d-lg-block">
                                     <nav> 
                                         <ul id="navigation">
-                                            <li><Link to="/">Home</Link></li>
+                                            {/* <li><Link to="/">Home</Link></li>
                                             <li><Link to="/about">About</Link></li>
                                             <li><Link to="/project">Projects</Link></li>
                                             <li><Link to="/service">Services</Link></li>
@@ -64,10 +64,11 @@ function Headers(){
                                                     <li><a href="services_details.html">Services Details</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="contact.html">Contact</a></li>
+                                            <li><a href="contact.html">Contact</a></li> */}
                                         </ul>
+                                            <li><a href="public/assets/document/Presentation - WorkBridge India Overview_20251007_000126_0000.pdf" download>Download Our Documentation</a></li>
                                     </nav>
-                                </div> */}
+                                </div>
                             </div>             
                             <div className="col-xl-2 col-lg-2 col-md-3">
                                 <div className="header-right-btn f-right d-none d-lg-block">

@@ -112,7 +112,7 @@ function ComponentMainFunction() {
                 <div className="service-cap">
                   <h4>
                     <a href="services_details.html">
-                      Engineering techniques & implementation
+                      Contractor–Subcontractor matchmaking
                     </a>
                   </h4>
                   <a href="services_details.html" className="more-btn">
@@ -132,7 +132,7 @@ function ComponentMainFunction() {
                 <div className="service-cap">
                   <h4>
                     <a href="services_details.html">
-                      Engineering techniques & implementation
+                      Project coordination support
                     </a>
                   </h4>
                   <a href="services_details.html" className="more-btn">
@@ -152,7 +152,27 @@ function ComponentMainFunction() {
                 <div className="service-cap">
                   <h4>
                     <a href="services_details.htmlaa">
-                      Engineering techniques & implementation
+                      Commission & subscription-based solutions
+                    </a>
+                  </h4>
+                  <a href="services_details.html" className="more-btn">
+                    Read More <i className="ti-plus"></i>
+                  </a>
+                </div>
+                <div className="service-icon">
+                  <img src="assets/img/icon/services_icon1.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-lg-4 col-md-6">
+              <div className="single-service-cap mb-30">
+                <div className="service-img">
+                  <img src="assets/img/service/servicess1.png" alt="" />
+                </div>
+                <div className="service-cap">
+                  <h4>
+                    <a href="services_details.html">
+                      Networking and industry connections
                     </a>
                   </h4>
                   <a href="services_details.html" className="more-btn">
@@ -181,18 +201,16 @@ function ComponentMainFunction() {
             </div>
             <div className="support-caption">
               <p className="pera-top">
-                Mollit anim laborum duis au dolor in voluptcate velit ess cillum
-                dolore eu lore dsu quality mollit anim laborumuis au dolor in
-                voluptate velit cillu.
+                WorkBridge India is a trusted platform that connects contractors and subcontractors seamlessly. We simplify hiring, coordination, and partnerships, ensuring projects are completed smoothly and efficiently
               </p>
-              <p>
+              {/* <p>
                 Mollit anim laborum.Dvcuis aute iruxvfg dhjkolohr in re
                 voluptate velit esscillumlore eu quife nrulla parihatur.
                 Excghcepteur sfwsignjnt occa cupidatat non aute iruxvfg
                 dhjinulpadeserunt mollitemnth incididbnt ut;o5tu layjobore
                 mofllit anim.
-              </p>
-              <a href="about.html" className="btn red-btn2">
+              </p> */}
+              <a href="/about" className="btn red-btn2">
                 read more
               </a>
             </div>
@@ -203,7 +221,7 @@ function ComponentMainFunction() {
               <img src="assets/img/gallery/safe_in.png" alt="" />
             </div>
             <div className="support-img-cap text-center">
-              <span>1994</span>
+              <span>2024</span>
               <p>Since</p>
             </div>
           </div>
@@ -974,11 +992,11 @@ function ComponentMainFunction() {
                                 {/* <!-- Section Tittle --> */}
                                 <div className="section-tittle section-tittle4">
                                     <div className="front-text">
-                                        <h2 className="">Lats talk with us</h2>
+                                        <h2 className="">What We Do</h2>
                                     </div>
-                                    <span className="back-text">Lat`s chat</span>
+                                    <span className="back-text">Let`s Do</span>
                                 </div>
-                                <p>Mollit anim laborum.Dvcuis aute iruxvfg dhjkolohr in re voluptate velit esscillumlore eu quife nrulla parihatur. Excghcepteur sfwsignjnt occa cupidatat non aute iruxvfg dhjinulpadeserunt mollitemnth incididbnt ut;o5tu layjobore mofllit anim.</p>
+                                <p>Help contractors find reliable, vetted subcontractors.Provide subcontractors with consistent project opportunities.Act as a bridge to build long-term, trusted partnerships..</p>
                                 <a href="#" className="white-btn">read more</a>
                             </div>
                         </div>
@@ -1092,6 +1110,39 @@ function ComponentMainFunction() {
         </div>
       </div>
       {/* <!-- Team End --> */}
+       {/* <!-- Why Choose Us Area Start --> */}
+      <section className="support-company-area fix pt-10">
+        <div className="support-wrapper align-items-end">
+          <div className="left-content">
+            {/* <!-- section tittle --> */}
+            <div className="section-tittle section-tittle2 mb-55">
+              <div className="front-text">
+                <h2 className="">Why Choose Us</h2>
+              </div>
+              <span className="back-text">Why us</span>
+            </div>
+            <div className="support-caption">
+              <p className="pera-top">
+                ✅ Save time and reduce hiring risks<br />✅ Access to a wide network of skilled professionals<br />✅ Transparent, hassle-free process<br />✅ Growth opportunities for both contractors & subcontractors
+              </p>
+              {/* <a href="#" className="btn red-btn2">
+                read more
+              </a> */}
+            </div>
+          </div>
+          <div className="right-content">
+            {/* <!-- img --> */}
+            <div className="right-img">
+              <img src="assets/img/gallery/safe_in.png" alt="" />
+            </div>
+            <div className="support-img-cap text-center">
+              <span>2024</span>
+              <p>Since</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* <!-- Why Choose Us Area End --> */}
       {/* <!-- Testimonial Start --> */}
       <div className="testimonial-area t-bg testimonial-padding">
         <div className="container ">

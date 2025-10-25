@@ -38,9 +38,9 @@ function Abouts() {
                         <span className="back-text">About us</span>
                     </div>
                     <div className="support-caption">
-                        <p className="pera-top">Mollit anim laborum duis au dolor in voluptcate velit ess cillum dolore eu lore dsu quality mollit anim laborumuis au dolor in voluptate velit cillu.</p>
-                        <p>Mollit anim laborum.Dvcuis aute iruxvfg dhjkolohr in re voluptate velit esscillumlore eu quife nrulla parihatur. Excghcepteur sfwsignjnt occa cupidatat non aute iruxvfg dhjinulpadeserunt mollitemnth incididbnt ut;o5tu layjobore mofllit anim.</p>
-                        <a href="about.html" className="btn red-btn2">read more</a>
+                        <p className="pera-top">WorkBridge India is a trusted platform that connects contractors and subcontractors seamlessly. We simplify hiring, coordination, and partnerships, ensuring projects are completed smoothly and efficiently</p>
+                        {/* <p>Mollit anim laborum.Dvcuis aute iruxvfg dhjkolohr in re voluptate velit esscillumlore eu quife nrulla parihatur. Excghcepteur sfwsignjnt occa cupidatat non aute iruxvfg dhjinulpadeserunt mollitemnth incididbnt ut;o5tu layjobore mofllit anim.</p> */}
+                        <a href="/about" className="btn red-btn2">read more</a>
                     </div>
                 </div>
                 <div className="right-content">
@@ -49,7 +49,7 @@ function Abouts() {
                         <img src="assets/img/gallery/safe_in.png" alt="" />
                     </div>
                     <div className="support-img-cap text-center">
-                        <span>1994</span>
+                        <span>2024</span>
                         <p>Since</p>
                     </div>
                 </div>

@@ -39,7 +39,7 @@ function Headers(){
                                     {/* <!-- logo-1 --> */}
                                     <a href="/" className="big-logo"><img src="assets/img/logo/WorkBridgeIndiaLogo_AM-removebg-preview.PNG" alt="" /></a>
                                     {/* <!-- logo-2 --> */}
-                                    <a href="/" className="small-logo"><img src="assets/img/logo/loder-logo.png" alt="" /></a>
+                                    <a href="/" className="small-logo"><img src="assets/img/logo/WorkBridgeLogo-removebg-preview.png" alt="" /></a>
                                 </div>
                             </div>
                             <div className="col-xl-8 col-lg-8 col-md-8">
